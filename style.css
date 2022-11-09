@@ -93,7 +93,7 @@ section {
 
 .header .logo img {
   height: 10rem;
-  color: ;
+  color: var(--main-color);
 }
 
 .header .navbar a {
@@ -246,6 +246,7 @@ section {
 
   .header .navbar.active {
     right: 0;
+    background: var(--main-color);
   }
   .header .navbar a {
     color: var(--black);
